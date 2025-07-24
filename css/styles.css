@@ -102,7 +102,6 @@ a:hover {
     color: white;
 }
 
-/* Main Content Styles */
 .content-wrapper {
     max-width: 1200px;
     margin: 0 auto;
@@ -137,7 +136,6 @@ a:hover {
     margin: var(--spacing-sm) auto;
 }
 
-/* Home Page Styles */
 .hero-banner {
     background-color: #fff;
     border-radius: var(--border-radius);
@@ -213,7 +211,6 @@ a:hover {
     color: white;
 }
 
-/* Hobbies Page Styles */
 .hobbies-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -409,7 +406,6 @@ a:hover {
     object-fit: contain;
 }
 
-/* Travel Dreams Page Styles */
 .slider-container {
     position: relative;
     max-width: 800px;
@@ -502,7 +498,6 @@ a:hover {
     background-color: white;
 }
 
-/* CV Page Styles */
 .cv-container {
     background-color: #fff;
     border-radius: var(--border-radius);
@@ -633,7 +628,6 @@ a:hover {
     border-radius: 5px;
 }
 
-/* Future Dreams Page Styles */
 .gallery-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -691,7 +685,6 @@ a:hover {
     color: rgba(255, 255, 255, 0.8);
 }
 
-/* Footer Styles */
 .site-footer {
     background-color: var(--bg-dark);
     color: white;
@@ -704,7 +697,6 @@ a:hover {
     margin-bottom: var(--spacing-sm);
 }
 
-/* Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -716,7 +708,6 @@ a:hover {
     }
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
     .site-header {
         flex-direction: column;
